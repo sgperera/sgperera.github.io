@@ -248,7 +248,7 @@ a:hover{
     }
 
     .nav{
-        width: 40%;
+        width: 30%;
     }    
 
     .about-container p{
@@ -260,8 +260,15 @@ a:hover{
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) { 
+
      .about-container{
         gap: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav{
+        width: 13%;
     }
 }
