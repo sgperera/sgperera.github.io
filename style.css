@@ -68,7 +68,7 @@ header{
 }
 
 .nav{
-    width: 40%;
+    width: 50%;
     height: 100vh;
     max-height: 100vh;
     padding: 30px;
@@ -242,19 +242,13 @@ a:hover{
 }
 
 
-@media screen and (min-width: 400px) {
-    .nav{
-        width: 40%;
-    }
-}
-
 @media screen and (min-width: 768px) {
     body{
         font-size: 16px;
     }
 
     .nav{
-        width: 10%;
+        width: 40%;
     }    
 
     .about-container p{
